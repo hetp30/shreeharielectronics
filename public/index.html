@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Shree Hari Electronics - Professional printer repair & sales in Vadodara. We service HP, Canon, Epson & all brands. Fast, affordable printer service with expert technicians.">
+  <meta name="keywords" content="printer repair Vadodara, printer service Vadodara, HP printer repair, Epson service center, Canon printer service, printer sales Vadodara">
+  <meta name="author" content="Shree Hari Electronics">
+  <link rel="canonical" href="https://www.shreeharielectronics.com/" />
+  <meta property="og:title" content="Professional Printer Repair & Sales in Vadodara - Shree Hari Electronics">
+  <meta property="og:description" content="Expert printer service center in Vadodara with certified technicians and competitive pricing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.shreeharielectronics.com/">
+  <meta property="og:image" content="https://www.shreeharielectronics.com/images/og-image.jpg">
+  <meta charset="UTF-8">
+  <title>Shree Hari Electronics | Professional Printer Sales & Service - Vadodara</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f8fafc;
+    }
+
+    /* Header Styles */
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+      padding: 1rem 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo-section img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .company-info h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .company-info p {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    .contact-info {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .contact-item i {
+      color: #60a5fa;
+    }
+
+    /* Navigation */
+    nav {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      padding: 0.5rem 0;
+      margin-top: 1rem;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(59, 130, 246, 0.8)), 
+                  url('office image 1.webp');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 8rem 0 4rem;
+      text-align: center;
+      margin-top: 120px;
+    }
+
+    .hero-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: #f59e0b;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #d97706;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+    }
+
+    .btn-secondary:hover {
+      background: white;
+      color: #1e3a8a;
+      transform: translateY(-2px);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    /* Services Section */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+      border: 1px solid #e5e7eb;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+
+    .service-icon {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-icon i {
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .service-card h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+
+    .service-card p {
+      color: #6b7280;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-features {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-features li {
+      padding: 0.5rem 0;
+      color: #4b5563;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .service-features li::before {
+      content: "✓";
+      color: #10b981;
+      font-weight: bold;
+    }
+
+    /* About Section */
+    .about-section {
+      background: white;
+      border-radius: 16px;
+      padding: 3rem;
+      margin: 4rem 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .about-text h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      color: #1f2937;
+    }
+
+    .about-text p {
+      font-size: 1.1rem;
+      color: #6b7280;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-image {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      background: white;
+      border-radius: 16px;
+      padding: 3rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      color: #374151;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 1rem;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+
+    .submit-btn {
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      width: 100%;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+    }
+
+    /* Chatbot Styles */
+    #chatbot-icon {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.5rem;
+      z-index: 1000;
+      box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    #chatbot-icon:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 30px rgba(59, 130, 246, 0.6);
+    }
+
+    #chatbot-box {
+      position: fixed;
+      bottom: 100px;
+      right: 30px;
+      width: 350px;
+      height: 500px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+      display: none;
+      flex-direction: column;
+      z-index: 1000;
+      overflow: hidden;
+    }
+
+    #chatbot-header {
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    #chatbot-messages {
+      flex: 1;
+      padding: 1rem;
+      overflow-y: auto;
+      background: #f8fafc;
+    }
+
+    .message {
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      max-width: 80%;
+    }
+
+    .message.user {
+      background: #3b82f6;
+      color: white;
+      margin-left: auto;
+    }
+
+    .message.bot {
+      background: white;
+      color: #374151;
+      border: 1px solid #e5e7eb;
+    }
+
+    #chatbot-input {
+      display: flex;
+      border-top: 1px solid #e5e7eb;
+      background: white;
+    }
+
+    #chatbot-input input {
+      flex: 1;
+      border: none;
+      padding: 1rem;
+      outline: none;
+      font-size: 0.9rem;
+    }
+
+    #chatbot-input button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    #chatbot-input button:hover {
+      background: #1e40af;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+      padding: 3rem 0 1rem;
+      margin-top: 4rem;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .footer-section h3 {
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .footer-section p,
+    .footer-section a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .footer-section a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-top: 2rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .nav-container {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-content {
+        grid-template-columns: 1fr;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      #chatbot-box {
+        width: 90%;
+        right: 5%;
+        left: 5%;
+      }
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.6s ease-out;
+    }
+
+    /* Loading animation */
+    .loading {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255,255,255,.3);
+      border-radius: 50%;
+      border-top-color: #fff;
+      animation: spin 1s ease-in-out infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-section">
+        <img src="/logo.png" alt="Shree Hari Electronics Logo">
+        <div class="company-info">
+          <h1>Shree Hari Electronics</h1>
+          <p>Professional Printer Solutions</p>
+        </div>
+      </div>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+91-98765XXXXX</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Sayajigunj, Vadodara</span>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="nav-container">
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Expert Printer Solutions</h2>
+      <p>Professional printer repair, sales, and maintenance services in Vadodara. Trusted by businesses and individuals for over 10 years.</p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+        <a href="#services" class="btn btn-secondary">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section id="services">
+      <h2 style="text-align: center; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: #1f2937;">Our Services</h2>
+      <p style="text-align: center; font-size: 1.1rem; color: #6b7280; margin-bottom: 3rem;">Comprehensive printer solutions for all your needs</p>
+      
+      <div class="services-grid">
+        <div class="service-card fade-in-up">
+          <div class="service-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Printer Repair</h3>
+          <p>Expert repair services for all major printer brands with certified technicians and genuine parts.</p>
+          <ul class="service-features">
+            <li>HP, Canon, Epson, Brother & more</li>
+            <li>Same-day service available</li>
+            <li>Genuine replacement parts</li>
+            <li>90-day warranty on repairs</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-in-up">
+          <div class="service-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h3>Printer Sales</h3>
+          <p>Wide selection of printers from top brands with competitive pricing and professional setup.</p>
+          <ul class="service-features">
+            <li>Home & office printers</li>
+            <li>Competitive pricing</li>
+            <li>Free installation & setup</li>
+            <li>Extended warranty options</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-in-up">
+          <div class="service-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>AMC & Maintenance</h3>
+          <p>Annual Maintenance Contracts to keep your printers running smoothly throughout the year.</p>
+          <ul class="service-features">
+            <li>Regular maintenance visits</li>
+            <li>Priority support</li>
+            <li>Parts replacement included</li>
+            <li>Cost-effective packages</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-in-up">
+          <div class="service-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>On-Site Service</h3>
+          <p>Convenient on-site repair and maintenance services for businesses and large offices.</p>
+          <ul class="service-features">
+            <li>Same-day response</li>
+            <li>No transportation needed</li>
+            <li>Minimal downtime</li>
+            <li>Flexible scheduling</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-in-up">
+          <div class="service-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Network Setup</h3>
+          <p>Professional network printer installation and configuration for seamless office integration.</p>
+          <ul class="service-features">
+            <li>Wi-Fi & Ethernet setup</li>
+            <li>Multi-user configuration</li>
+            <li>Security implementation</li>
+            <li>Remote access setup</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-in-up">
+          <div class="service-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Round-the-clock technical support and emergency services for critical printing needs.</p>
+          <ul class="service-features">
+            <li>Emergency call-out service</li>
+            <li>Remote troubleshooting</li>
+            <li>Priority response times</li>
+            <li>Dedicated support team</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Why Choose Shree Hari Electronics?</h2>
+          <p>With over a decade of experience in the printer industry, we've built a reputation for excellence, reliability, and customer satisfaction in Vadodara.</p>
+          <p>Our team of certified technicians specializes in all major printer brands and provides comprehensive solutions for both home and business needs.</p>
+          <div style="margin-top: 2rem;">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <i class="fas fa-check-circle" style="color: #10b981; font-size: 1.2rem;"></i>
+              <span>10+ Years of Experience</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <i class="fas fa-check-circle" style="color: #10b981; font-size: 1.2rem;"></i>
+              <span>Certified Technicians</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+              <i class="fas fa-check-circle" style="color: #10b981; font-size: 1.2rem;"></i>
+              <span>Genuine Parts & Warranty</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <i class="fas fa-check-circle" style="color: #10b981; font-size: 1.2rem;"></i>
+              <span>Competitive Pricing</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="/office_image_2.webp" alt="Shree Hari Electronics Office">
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" style="margin: 4rem 0;">
+      <h2 style="text-align: center; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: #1f2937;">Our Office</h2>
+      <p style="text-align: center; font-size: 1.1rem; color: #6b7280; margin-bottom: 3rem;">Take a look at our professional workspace</p>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+          <img src="/office_image_1.webp" alt="Office Front" style="width: 100%; height: 250px; object-fit: cover;">
+        </div>
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+          <img src="/office_image_2.webp" alt="Service Area" style="width: 100%; height: 250px; object-fit: cover;">
+        </div>
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+          <img src="/office_image_3.webp" alt="Workstation" style="width: 100%; height: 250px; object-fit: cover;">
+        </div>
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); background: #fff;">
+          <img src="/printer1.webp" alt="Printer Model 1" style="width: 100%; height: 250px; object-fit: cover;">
+        </div>
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); background: #fff;">
+          <img src="/printer2.webp" alt="Printer Model 2" style="width: 100%; height: 250px; object-fit: cover;">
+        </div>
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); background: #fff;">
+          <img src="/printer3.webp" alt="Printer Model 3" style="width: 100%; height: 250px; object-fit: cover;">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 style="text-align: center; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: #1f2937;">Contact Us</h2>
+      <p style="text-align: center; font-size: 1.1rem; color: #6b7280; margin-bottom: 3rem;">Get in touch for professional printer solutions</p>
+      
+      <form class="contact-form" action="/contact" method="POST">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Required</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="repair">Printer Repair</option>
+              <option value="sales">Printer Sales</option>
+              <option value="maintenance">AMC & Maintenance</option>
+              <option value="onsite">On-Site Service</option>
+              <option value="network">Network Setup</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group full-width">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Please describe your printer issue or requirements..." required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Shree Hari Electronics</h3>
+        <p>Your trusted partner for all printer solutions in Vadodara. Professional service, competitive pricing, and guaranteed satisfaction.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      <div class="footer-section">
+        <h3>Services</h3>
+        <a href="#services">Printer Repair</a>
+        <a href="#services">Printer Sales</a>
+        <a href="#services">AMC & Maintenance</a>
+        <a href="#services">On-Site Service</a>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Sayajigunj, Vadodara</p>
+        <p><i class="fas fa-phone"></i> +91-98765XXXXX</p>
+        <p><i class="fas fa-envelope"></i> info@shreeharielectronics.com</p>
+        <p><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Shree Hari Electronics. All rights reserved. | Professional Printer Solutions in Vadodara</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Add scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe service cards for animation
+    document.querySelectorAll('.service-card').forEach(card => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(30px)';
+      card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(card);
+    });
+
+    // Form submission handling
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const submitBtn = this.querySelector('.submit-btn');
+      const originalText = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<div class="loading"></div> Sending...';
+      submitBtn.disabled = true;
+      
+      // Get form data
+      const formData = new FormData(this);
+      const data = Object.fromEntries(formData);
+      
+      // Send to server
+      fetch('/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams(data)
+      })
+      .then(response => response.json())
+      .then(result => {
+        if (result.success) {
+          alert(result.message);
+          this.reset();
+        } else {
+          alert('Error sending message. Please try again.');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Error sending message. Please try again.');
+      })
+      .finally(() => {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+      });
+    });
+  </script>
+</body>
+</html>

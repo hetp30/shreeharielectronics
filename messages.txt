@@ -1,0 +1,4 @@
+{"name":"sdfj","email":"shreeharielectronics17@yahoo.com","message":"vdsv","date":"7/6/2025, 1:45:11 AM"}
+{"name":"HET NIMESH PATEL","email":"shreeharielectronics17@yahoo.com","phone":"09409902837","service":"repair","message":"yfuyfiguihouhoihoihou","date":"7/6/2025, 2:52:30 PM"}
+{"name":"PATEL NIMESHKUMAR","email":"shreeharielectronics17@yahoo.com","phone":"09409902837","service":"sales","message":"sfsefsfsdff","date":"7/15/2025, 7:20:24 PM"}
+{"name":"jsrf","email":"lyiooiuoi@gmail.com","phone":"8768597987","service":"sales","message":"khdcouhdcoi","date":"8/3/2025, 12:47:15 PM"}
